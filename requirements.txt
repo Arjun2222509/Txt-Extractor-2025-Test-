@@ -28,3 +28,13 @@ Pillow
 pytube
 opencv-python-headless
 uvloop
+pyrofork
+aiohttp
+motor
+tgcrypto
+aiofiles
+requests
+hachoir
+cloudscraper
+pycryptodome
+pytz
