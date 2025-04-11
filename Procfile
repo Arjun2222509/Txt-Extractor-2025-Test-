@@ -1,1 +1,2 @@
-worker: python -m Extractor
+worker: python main.py
+web: gunicorn app:app
