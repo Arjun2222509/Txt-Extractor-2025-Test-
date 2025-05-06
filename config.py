@@ -2,11 +2,11 @@
 from os import getenv
 
 
-API_ID = int(getenv("API_ID", "18116881"))
-API_HASH = getenv("API_HASH", "cca3bacf40fb3ebcb4f075b2e46ff1bd")
+API_ID = int(getenv("API_ID", "29899535"))
+API_HASH = getenv("API_HASH", "f90e1df9486cd7c26766e7387105e08e")
 BOT_TOKEN = getenv("BOT_TOKEN", "7958229600:AAHqpzrkOdzCNn-0QF5JOsi6bLvuxn9ETBM")
-OWNER_ID = int(getenv("OWNER_ID", "1445673621"))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1445673621").split()))
+OWNER_ID = int(getenv("OWNER_ID", "8143531643"))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8143531643").split()))
 MONGO_URL = getenv("MONGO_DB", "mongodb+srv://daxxop:daxxop@daxxop.dg3umlc.mongodb.net/?retryWrites=true&w=majority")
 
 CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002369684934"))
